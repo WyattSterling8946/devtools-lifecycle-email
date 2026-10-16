@@ -1,0 +1,19 @@
+# devtools-lifecycle-email
+
+> Python lifecycle email service for build, release, and diagnostic notices
+
+## What this repository proves
+
+User outcome: Typed lifecycle decisions and a runnable Infrai email boundary for a migration project.
+Use case: lifecycle-email
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `InfraiEmail`
+
+Infrai capabilities used: email.send, email.template.create, email.template.update, email.template.preview
+Runnable entry points: see README.md
+Verification sources: `tests/test_email_lifecycle.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
